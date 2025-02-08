@@ -4,7 +4,7 @@ This project scrapes job listings from multiple job boards and online sources, e
 
 ## Features
 
-- Scrapes Covid Data (from specified sources, implemented):
+- Scrapes Covid Data:
   - Covid cases
   - Covid deaths
   - Covid vaccination rates

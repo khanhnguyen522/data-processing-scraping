@@ -4,6 +4,11 @@ This project scrapes job listings from multiple job boards and online sources, e
 
 ## Features
 
+- Scrapes Covid Data (from specified sources, implemented):
+  - Covid cases
+  - Covid deaths
+  - Covid vaccination rates
+  
 - Scrapes job data from various sources:
   - **TheLadders**
   - **CareerBuilder**
@@ -19,7 +24,9 @@ This project scrapes job listings from multiple job boards and online sources, e
   - Desired qualifications
   - Relevant skills (e.g., Python, SQL, Cloud)
 
-- Stores the scraped data in a CSV file (`group_7_dsc_jobs.csv`) for further analysis.
+- Stores the scraped data in CSV files for further analysis:
+  - Jobs Data: group_7_dsc_jobs.csv
+  - Covid Data: covid_data.csv
 
 ## Requirements
 
@@ -57,7 +64,7 @@ python job_scraper.py
 
 The script will prompt you with a menu to choose which part to run:
 
-- Covid Data (currently not implemented, but you can extend the script to handle this).
+- Covid Data: This part scrapes Covid-related data.
 - Jobs Data: This part scrapes job listings from TheLadders, CareerBuilder, and Google Jobs.
 
 ## Potential Issues and Workarounds
